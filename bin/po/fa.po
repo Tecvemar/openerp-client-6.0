@@ -1,0 +1,2627 @@
+# Persian translation for openobject-client
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the openobject-client package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-client\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-12-13 18:11+0100\n"
+"PO-Revision-Date: 2011-01-19 13:30+0000\n"
+"Last-Translator: avion <nat@sethack.com>\n"
+"Language-Team: Persian <fa@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-11-02 05:27+0000\n"
+"X-Generator: Launchpad (build 16218)\n"
+"Language: fa\n"
+
+#: bin/plugins/__init__.py:27
+msgid "Print Workflow"
+msgstr "چاپ کارگردش"
+
+#: bin/plugins/__init__.py:28
+msgid "Print Workflow (with subflows)"
+msgstr "چاپ کارگردش (پیچیده)"
+
+#: bin/plugins/__init__.py:40
+msgid "No available plugin for this resource !"
+msgstr "برای این منبع پلاگین وجود ندارد!"
+
+#: bin/plugins/__init__.py:42
+msgid "Choose a Plugin"
+msgstr "یک پلاگین را برگزینید"
+
+#: bin/rpc.py:157 bin/modules/action/wizard.py:149 bin/modules/gui/main.py:187
+msgid "Connection refused !"
+msgstr "اتصال قطع شد!"
+
+#: bin/rpc.py:203 bin/rpc.py:205 bin/modules/action/wizard.py:161
+#: bin/modules/action/wizard.py:167 bin/modules/action/wizard.py:169
+#: bin/modules/gui/main.py:195 bin/modules/gui/main.py:201
+msgid "Application Error"
+msgstr "خطای برنامه"
+
+#: bin/rpc.py:205 bin/modules/action/wizard.py:169
+msgid "View details"
+msgstr "دیدن جزییات"
+
+#: bin/modules/action/main.py:48
+msgid "Nothing to print!"
+msgstr "چیزی برای چاپ وجود ندارد!"
+
+#: bin/modules/action/main.py:66
+msgid "Printing aborted, too long delay !"
+msgstr "چاپ به دلیل دیرکرد درازاانی ناتمام ماند!"
+
+#: bin/modules/action/main.py:204
+msgid "Select your action"
+msgstr "کُنش خود را برگزینید"
+
+#: bin/modules/gui/main.py:89 bin/modules/gui/main.py:341
+msgid "Could not connect to server !"
+msgstr "نمی‌توان به کارپذیر متصل شد!"
+
+#: bin/modules/gui/main.py:93 bin/openerp.ui.h:856
+msgid "Server:"
+msgstr "کارپذیر:"
+
+#: bin/modules/gui/main.py:104 bin/openerp.ui.h:724
+msgid "Change"
+msgstr "تغییر"
+
+#: bin/modules/gui/main.py:111
+msgid "Super Administrator Password:"
+msgstr "گذرواژه‌ کاربر راهبر:"
+
+#: bin/modules/gui/main.py:193
+msgid "Bad Super Administrator Password"
+msgstr ""
+
+#: bin/modules/gui/main.py:217
+msgid "Migration Scripts"
+msgstr "اسکریپت‌های کوچ"
+
+#: bin/modules/gui/main.py:220
+msgid "Contract ID:"
+msgstr "شناسه قرارداد:"
+
+#: bin/modules/gui/main.py:226
+msgid "Contract Password:"
+msgstr "گذرواژه قرارداد:"
+
+#: bin/modules/gui/main.py:241
+msgid "You already have the latest version"
+msgstr "شما تازه‌ترین نگارش را دارید"
+
+#: bin/modules/gui/main.py:246
+msgid "The following updates are available:"
+msgstr "بروزرسانی‌های زیر موجود هستند:"
+
+#: bin/modules/gui/main.py:258
+msgid "You can now migrate your databases."
+msgstr "شما نمی‌توانید دادگان‌های خود را کوچ دهید."
+
+#: bin/modules/gui/main.py:263
+msgid "Migrate Database"
+msgstr "کوچ دادگان"
+
+#: bin/modules/gui/main.py:280
+msgid "Database"
+msgstr ""
+
+#: bin/modules/gui/main.py:292
+msgid "Your database has been upgraded."
+msgstr "دادگان شما بروزآوری شد."
+
+#: bin/modules/gui/main.py:294
+msgid "Your databases have been upgraded."
+msgstr "دادگان‌های شما بروزآوری شد."
+
+#: bin/modules/gui/main.py:296
+msgid "You have not selected a database"
+msgstr ""
+
+#: bin/modules/gui/main.py:360
+msgid "No database found, you must create one !"
+msgstr "هیچ دادگانی یافت نشد، شما باید یکی پدید آورید!"
+
+#: bin/modules/gui/main.py:468
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: bin/modules/gui/main.py:474
+#, python-format
+msgid ""
+"The versions of the server (%s) and the client (%s) missmatch. The client "
+"may not work properly. Use it at your own risks."
+msgstr ""
+"نگارش بین کارپذیر (%s) و کارخواه (%s) ناهماهنگ هستند. کارخواه ممکن است درست "
+"کار نکند. عواقب بکارگیری نادرست از آن به عهده شما خواهد بود."
+
+#: bin/modules/gui/main.py:597
+msgid "Sorry,'"
+msgstr "متاسفم، '"
+
+#: bin/modules/gui/main.py:597 bin/modules/gui/main.py:600
+msgid "Bad database name !"
+msgstr "نام نامناسب برای دادگان!"
+
+#: bin/modules/gui/main.py:600
+msgid ""
+"The database name must contain only normal characters or \"_\".\n"
+"You must avoid all accents, space or special characters."
+msgstr ""
+"نام دادگان باید شامل تنها نویسه‌های عادی یا \"_\" باشد.\n"
+"شما باید از تمامی علامات تلفظ، فواصل یا نویسه‌های ویژه دوری کنید."
+
+#: bin/modules/gui/main.py:624 bin/modules/gui/main.py:637
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:641
+msgid "Could not create database."
+msgstr "پدیدن دادگان ممکن نیست."
+
+#: bin/modules/gui/main.py:625 bin/modules/gui/main.py:637
+msgid "Database already exists !"
+msgstr "دادگان از پیش موجود است!"
+
+#: bin/modules/gui/main.py:639 bin/modules/gui/main.py:1378
+#: bin/modules/gui/main.py:1398 bin/modules/gui/main.py:1502
+msgid "Bad database administrator password !"
+msgstr "گذرواژه راهبر دادگان نامناسب است!"
+
+#: bin/modules/gui/main.py:641 bin/modules/gui/main.py:648
+msgid "Error during database creation !"
+msgstr "خطا در حین پدیدآوری دادگان!"
+
+#: bin/modules/gui/main.py:648
+msgid ""
+"The server crashed during installation.\n"
+"We suggest you to drop this database."
+msgstr ""
+"کارپذیر در هنگام برپاسازی از کار افتاد.\n"
+"پیشنهاد می‌کنیم که این دادگان را بیاندازید."
+
+#: bin/modules/gui/main.py:694 bin/modules/gui/main.py:1060
+msgid "Press Ctrl+O to login"
+msgstr "برای ورود Ctrl+O را فشار دهید"
+
+#: bin/modules/gui/main.py:881
+msgid "Edit"
+msgstr "ویرایش"
+
+#: bin/modules/gui/main.py:962
+#, python-format
+msgid "%s"
+msgstr ""
+
+#: bin/modules/gui/main.py:964
+msgid "No Company"
+msgstr ""
+
+#: bin/modules/gui/main.py:977
+#, python-format
+msgid "%s request(s)"
+msgstr "%s درخواست"
+
+#: bin/modules/gui/main.py:979
+msgid "No request"
+msgstr "بدون درخواست"
+
+#: bin/modules/gui/main.py:981
+#, python-format
+msgid " - %s request(s) sent"
+msgstr ""
+
+#: bin/modules/gui/main.py:1019
+msgid ""
+"Please double-check the database name or contact your administrator to "
+"verify the database status."
+msgstr ""
+
+#: bin/modules/gui/main.py:1019
+msgid "Database cannot be accessed or does not exist"
+msgstr ""
+
+#: bin/modules/gui/main.py:1023
+msgid ""
+"Connection error !\n"
+"Unable to connect to the server !"
+msgstr ""
+"خطای اتصال! \n"
+"امکان اتصال به کارپذیر وجود ندارد!"
+
+#: bin/modules/gui/main.py:1025
+msgid ""
+"Authentication error !\n"
+"Bad Username or Password !"
+msgstr ""
+"خطای تشخیص هویت!\n"
+"گذرواژه یا نام‌کاربری نادرست!"
+
+#: bin/modules/gui/main.py:1038
+#, python-format
+msgid "OpenERP - %s"
+msgstr ""
+
+#: bin/modules/gui/main.py:1058
+msgid "Not logged !"
+msgstr "وارد نشده‌اید!"
+
+#: bin/widget/view/form_gtk/one2many_list.py:52 bin/modules/gui/main.py:1067
+#: bin/openerp.ui.h:808
+msgid "OpenERP"
+msgstr "اپن ای‌آر‌پی"
+
+#: bin/modules/gui/main.py:1147
+msgid ""
+"You can not log into the system !\n"
+"Ask the administrator to verify\n"
+"you have an action defined for your user."
+msgstr ""
+"شما نمی‌توانید به سامانه وارد شوید!\n"
+"از راهبر بپرسید تا مطمئن شوید که فعالیت‌هایی برای\n"
+"کاربر شما در نظر گرفته شده است."
+
+#: bin/modules/gui/main.py:1181 bin/modules/gui/main.py:1188
+msgid "Do you really want to quit ?"
+msgstr "آیا واقعاً می‌خواهید خارج شوید؟"
+
+#: bin/modules/gui/main.py:1257
+#, python-format
+msgid "Attachments (%d)"
+msgstr "پیوست‌ها (%d)"
+
+#: bin/modules/gui/main.py:1270
+msgid "Attachments"
+msgstr "پیوست‌ها"
+
+#: bin/modules/gui/main.py:1369
+msgid "Delete a database"
+msgstr "ستردن یک دادگان"
+
+#: bin/modules/gui/main.py:1375
+msgid "Database dropped successfully !"
+msgstr "دادگان با موفقیت انداخته شد!"
+
+#: bin/modules/gui/main.py:1378
+msgid "Could not drop database."
+msgstr "نمی‌توان دادگان را انداخت"
+
+#: bin/modules/gui/main.py:1380
+msgid "Couldn't drop database"
+msgstr "نمی‌توان دادگان را انداخت"
+
+#: bin/widget/view/form_gtk/url.py:118 bin/widget/view/form_gtk/image.py:112
+#: bin/modules/gui/main.py:1383 bin/openerp.ui.h:807
+msgid "Open..."
+msgstr "بازکردن..."
+
+#: bin/modules/gui/main.py:1395
+msgid "Database restored successfully !"
+msgstr "دادگان با موفقیت بازگردانده شد!"
+
+#: bin/modules/gui/main.py:1398
+msgid "Could not restore database."
+msgstr "بازگردانی دادگان ممکن نیست."
+
+#: bin/modules/gui/main.py:1400
+msgid "Couldn't restore database"
+msgstr "بازگردانی دادگان ممکن نیست"
+
+#: bin/modules/gui/main.py:1450
+msgid ""
+"Confirmation password does not match new password, operation cancelled!"
+msgstr "گردانش لغو شد، گذرواژه تاییدی با گذرواژه نو جور نیست!"
+
+#: bin/modules/gui/main.py:1452
+msgid "Validation Error."
+msgstr "خطای اعتبار."
+
+#: bin/modules/gui/main.py:1469
+msgid "Could not change the Super Admin password."
+msgstr "خطا در تغییر گذرواژه راهبر."
+
+#: bin/modules/gui/main.py:1470 bin/modules/gui/main.py:1476
+msgid "Bad password provided !"
+msgstr "گذرواژه‌ نامناسب بکار رفته!"
+
+#: bin/modules/gui/main.py:1457
+msgid "Error, password not changed."
+msgstr "خطا، گذرواژه تغییر داده نشد."
+
+#: bin/modules/gui/main.py:1483 bin/modules/gui/main.py:1506
+msgid "Backup a database"
+msgstr "پشتوانه گیری دادگان"
+
+#: bin/widget/view/form_gtk/binary.py:171
+#: bin/widget/view/form_gtk/image.py:133 bin/modules/gui/main.py:1486
+#: bin/modules/gui/window/win_export.py:352 bin/printer/printer.py:231
+msgid "Save As..."
+msgstr "ذخیره باعنوان..."
+
+#: bin/modules/gui/main.py:1499
+msgid "Database backed up successfully !"
+msgstr "دادگان با موفقیت پشتوانه‌سازی گردید."
+
+#: bin/modules/gui/main.py:1502
+msgid "Could not backup the database."
+msgstr "امکان پشتوانه گیری از دادگان وجود ندارد."
+
+#: bin/modules/gui/main.py:1504
+msgid "Couldn't backup database."
+msgstr "امکان پشتوانه گیری دادگان وجود ندارد."
+
+#: bin/modules/gui/window/form.py:189
+msgid "Resource ID does not exist for this object!"
+msgstr "شناسه منبع برای این شی وجود ندارد"
+
+#: bin/modules/gui/window/form.py:247
+msgid "No record selected ! You can only attach to existing record."
+msgstr ""
+"هیچ رکوردی برگزیده نشد! شما تنها می‌توانید رکوردهای موجود را پیوست نمایید."
+
+#: bin/modules/gui/window/form.py:264
+msgid "You have to select a record !"
+msgstr "شما باید یک رکورد را برگزینید!"
+
+#: bin/modules/gui/window/win_export.py:206 bin/modules/gui/window/form.py:270
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:41
+msgid "ID"
+msgstr "شناسه"
+
+#: bin/modules/gui/window/form.py:271
+msgid "Creation User"
+msgstr "کاربر پدیدآورنده"
+
+#: bin/modules/gui/window/form.py:272
+msgid "Creation Date"
+msgstr "تاریخ پدیدن"
+
+#: bin/modules/gui/window/form.py:273
+msgid "Latest Modification by"
+msgstr "تازه‌ترین تغییر توسط"
+
+#: bin/modules/gui/window/form.py:274
+msgid "Latest Modification Date"
+msgstr "تاریخ تازه‌ترین تغییر"
+
+#: bin/modules/gui/window/form.py:275
+msgid "Internal Module Data ID"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:269
+msgid ""
+"Record is not saved ! \n"
+" Do You want to Clear Current Record ?"
+msgstr ""
+"رکورد ذخیره نگردید! \n"
+"آیا می‌خواهید رکورد کنونی را پاک نمایید؟"
+
+#: bin/widget/view/form_gtk/one2many_list.py:388
+#: bin/modules/gui/window/form.py:290
+msgid "Are you sure to remove this record ?"
+msgstr "آیا می‌خواهید این رکورد را بردارید؟"
+
+#: bin/widget/view/form_gtk/one2many_list.py:390
+#: bin/modules/gui/window/form.py:292
+msgid "Are you sure to remove those records ?"
+msgstr "آیا می‌خواهید این رکوردها را بردارید؟"
+
+#: bin/modules/gui/window/form.py:296
+msgid "Resources cleared."
+msgstr "منبع پاک شد."
+
+#: bin/modules/gui/window/form.py:298
+msgid "Resources successfully removed."
+msgstr "منابع با موفقیت برداشته‌شد."
+
+#: bin/modules/gui/window/form.py:339
+msgid "Working now on the duplicated document !"
+msgstr "در حال کار به روی سند تکثیر شده!"
+
+#: bin/modules/gui/window/form.py:355
+msgid "Document Saved."
+msgstr "سند ذخیره‌شد"
+
+#: bin/widget/view/list.py:585 bin/widget/view/list.py:586
+#: bin/widget/view/form_gtk/parser.py:135 bin/modules/gui/window/form.py:366
+msgid "Invalid form, correct red fields !"
+msgstr "فرم نامعتبر، فیلدهای قرمز را تدرست کنید!"
+
+#: bin/widget/view/list.py:585
+msgid "Error !"
+msgstr "خطا!"
+
+#: bin/modules/gui/window/form.py:368
+msgid "Warning !"
+msgstr ""
+
+#: bin/modules/gui/window/form.py:389 bin/modules/gui/window/form.py:497
+msgid ""
+"This record has been modified\n"
+"do you want to save it ?"
+msgstr ""
+"این رکورد تغییر پیدا کرده است\n"
+"آیا می‌خواهید آن را ذخیره نمایید؟"
+
+#: bin/modules/gui/window/form.py:447
+msgid "You must select one or several records !"
+msgstr "شما باید یک یا چند رکورد را برگزینید!"
+
+#: bin/modules/gui/window/form.py:456
+msgid "Print Screen"
+msgstr "چاپ صفحه"
+
+#: bin/modules/gui/window/form.py:476
+msgid "No record selected"
+msgstr "رکوردی گزینش نشده"
+
+#: bin/modules/gui/window/form.py:481
+msgid "New document"
+msgstr "سند نو"
+
+#: bin/modules/gui/window/form.py:483
+msgid "Editing document (id: "
+msgstr "ویرایش سند (شناسه: "
+
+#: bin/modules/gui/window/form.py:486
+msgid "Record: "
+msgstr "رکورد: "
+
+#: bin/modules/gui/window/form.py:487
+msgid " of "
+msgstr " از "
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "The file is empty !"
+msgstr "پرونده خالی است!"
+
+#: bin/modules/gui/window/win_import.py:51
+msgid "Importation !"
+msgstr "درونش‌سازی!"
+
+#: bin/modules/gui/window/win_import.py:56
+msgid "XML-RPC error !"
+msgstr "خطای XML-RPC"
+
+#: bin/modules/gui/window/win_import.py:61
+msgid "Imported one object !"
+msgstr "یک شی درونش شد!"
+
+#: bin/modules/gui/window/win_import.py:63
+#, python-format
+msgid "Imported %d objects !"
+msgstr "%d شی درونش گردید!"
+
+#: bin/modules/gui/window/win_import.py:68
+#, python-format
+msgid ""
+"Error trying to import this record:\n"
+"%s\n"
+"Error Message:\n"
+"%s\n"
+"\n"
+"%s"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:72
+msgid "Importation Error !"
+msgstr "خطای درونش‌سازی!"
+
+#: bin/modules/gui/window/win_import.py:104
+#: bin/modules/gui/window/win_import.py:108
+msgid "Field name"
+msgstr "نام فیلد"
+
+#: bin/modules/gui/window/win_import.py:182
+msgid "Error opening .CSV file"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:182
+msgid "Input Error."
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:198
+#, python-format
+msgid "You cannot import this field %s, because we cannot auto-detect it"
+msgstr ""
+"شما نمی‌توانید فیلد %s را درونش کنید، زیرا ما قادر به شناسایی خودکار آن "
+"نیستیم"
+
+#: bin/modules/gui/window/win_import.py:201
+#, python-format
+msgid ""
+"Error processing your first line of the file.\n"
+"Field %s is unknown !"
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:201
+msgid "Import Error."
+msgstr ""
+
+#: bin/modules/gui/window/win_import.py:232
+msgid "You have not selected any fields to import"
+msgstr "شما هیچ فیلدی را برای درونش برنگزیده‌اید"
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Extension"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Application"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:43
+msgid "Print Processor"
+msgstr ""
+
+#: bin/modules/gui/window/win_extension.py:111
+msgid "This extension is already defined"
+msgstr "این افزونه پیشا تعریف شده"
+
+#: bin/modules/gui/window/win_extension.py:111 bin/openerp.ui.h:758
+msgid "Extension Manager"
+msgstr "مدیر افزونه"
+
+#: bin/modules/gui/window/win_selection.py:51
+msgid "Name"
+msgstr "نام"
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Ressource Name"
+msgstr "نام منابع"
+
+#: bin/modules/gui/window/win_selection.py:55
+msgid "Names"
+msgstr "نام‌ها"
+
+#: bin/modules/gui/window/__init__.py:31
+msgid "Unknown Window"
+msgstr "پنجره ناشناس"
+
+#: bin/modules/gui/window/win_preference.py:68
+msgid "Preferences"
+msgstr ""
+
+#: bin/modules/gui/window/win_preference.py:86
+msgid ""
+"The default language of the interface has been modified, do not forget to "
+"restart the client to have the interface in your language"
+msgstr ""
+"زبان پیش‌فرض رابط کاربری تغییر یافت، فراموش نکنید که باید کارخواه خود را "
+"برای گرفتن تغییرات زبان دلخواه اجرای مجدد کنید."
+
+#: bin/modules/gui/window/win_preference.py:88
+msgid "Default language modified !"
+msgstr "زبان پیش‌فرض تغییر یافت!"
+
+#: bin/modules/gui/window/view_tree/parse.py:35
+msgid "Tree"
+msgstr "درخت"
+
+#: bin/modules/gui/window/view_tree/view_tree_sc.py:45
+msgid "Description"
+msgstr "توصیف"
+
+#: bin/modules/gui/window/tree.py:203 bin/modules/gui/window/tree.py:264
+msgid "No resource selected!"
+msgstr "منبعی گزینش نشده!"
+
+#: bin/modules/gui/window/tree.py:222
+msgid ""
+"Are you sure you want\n"
+"to remove this record?"
+msgstr "آیا می‌خواهید این رکورد را بردارید؟"
+
+#: bin/modules/gui/window/tree.py:227
+msgid "Error removing resource!"
+msgstr "خطا در برداشتن منبع!"
+
+#: bin/modules/gui/window/tree.py:238
+msgid "Unable to chroot: no tree resource selected"
+msgstr "ناتوانی در تغییر ریشه: هیچ منبع درختی گزینش نشده"
+
+#: bin/modules/gui/window/win_export.py:50
+msgid " record(s) saved !"
+msgstr " رکوردها ذخیره شد"
+
+#: bin/modules/gui/window/win_export.py:53
+msgid ""
+"Operation failed !\n"
+"I/O error"
+msgstr ""
+"گردانش ناموفق بود! \n"
+"خطای I/O"
+
+#: bin/modules/gui/window/win_export.py:79
+#: bin/modules/gui/window/win_export.py:105
+msgid "Error Opening Excel !"
+msgstr "خطا در باز کردن Excel!"
+
+#: bin/modules/gui/window/win_export.py:310
+msgid "What is the name of this export ?"
+msgstr ""
+
+#: bin/modules/gui/window/win_export.py:344
+msgid "Exportation Error !"
+msgstr "خطای برونش!"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1779
+#: bin/modules/gui/window/win_search.py:49
+msgid "OpenERP - Link"
+msgstr "اپن ای‌آر‌پی - پیوند"
+
+#: bin/modules/gui/window/win_search.py:126
+#, python-format
+msgid "OpenERP Search: %s"
+msgstr "جستجوی اپن ای‌آر‌پی: %s"
+
+#: bin/modules/gui/window/win_search.py:127
+#, python-format
+msgid "OpenERP Search: %s (%%d result(s))"
+msgstr "جستجوی اپن ای‌آر‌پی: %s (%%d نمونه)"
+
+#: bin/options.py:122
+#, python-format
+msgid "OpenERP Client %s"
+msgstr "کارپذیر اپن ای‌آر‌پی %s"
+
+#: bin/options.py:123
+msgid "specify alternate config file"
+msgstr "تعیین پرونده پیکربندی دیگر"
+
+#: bin/options.py:124
+msgid "Enable basic debugging. Alias for '--log-level=debug'"
+msgstr "فعال‌سازی دیباگ عادی. استعاره‌ای برای '--log-level=debug'"
+
+#: bin/options.py:125
+#, python-format
+msgid "specify the log level: %s"
+msgstr "سطح لاگ را تعیین کنید: %s"
+
+#: bin/options.py:126
+msgid "specify the user login"
+msgstr "نام کاربری را تعیین کنید"
+
+#: bin/options.py:127
+msgid "specify the server port"
+msgstr "درگاه کارپذیر را تعیین کنید"
+
+#: bin/options.py:128
+msgid "specify the server ip/name"
+msgstr "آی‌پی/نام کارپذیر را تعیین کنید"
+
+#: bin/common/common.py:88
+msgid "Close current tip"
+msgstr ""
+
+#: bin/common/common.py:89
+msgid ""
+"<span foreground=\"darkred\"><b>Close Current Tip:</b></span>\n"
+"This will hide the current tip. It will be displayed again next time you "
+"open this menu item, unless you disable all tips using the <b>'Menu "
+"Tips'</b> option in the user preferences."
+msgstr ""
+
+#: bin/common/common.py:99
+msgid "Disable all tips"
+msgstr ""
+
+#: bin/common/common.py:100
+msgid ""
+"<span foreground=\"darkred\"><b>Disable all tips:</b></span>\n"
+"This will disable the display of tips on all menu items.\n"
+"To re-enable tips you need to check the <b>'Menu Tips'</b> option in the "
+"user preferences."
+msgstr ""
+
+#: bin/common/common.py:114 bin/common/common.py:116
+msgid "Tips"
+msgstr ""
+
+#: bin/common/common.py:167
+msgid "OpenERP Computing"
+msgstr "محاسبه اپن ای‌آر‌پی"
+
+#: bin/common/common.py:186
+msgid "Operation in progress"
+msgstr "گردانش در حال پیش‌روی است"
+
+#: bin/common/common.py:190
+msgid ""
+"Please wait,\n"
+"this operation may take a while..."
+msgstr ""
+"لطفا منتظر بمانید،\n"
+"این گردانش ممکن است مدتی به درازا بیانجامد..."
+
+#: bin/common/common.py:224
+#, python-format
+msgid "Ensure that the file %s is correct"
+msgstr ""
+
+#: bin/common/common.py:410
+msgid " has reported the following bug:\n"
+msgstr ""
+
+#: bin/common/common.py:410
+msgid "remarks"
+msgstr ""
+
+#: bin/common/common.py:413
+msgid "Support request sent !"
+msgstr "درخواست پشتیبانی ارسال شد!"
+
+#: bin/common/common.py:436 bin/common/common.py:480
+msgid ""
+"\n"
+"<b>An unknown error has been reported.</b>\n"
+"\n"
+"<b>You do not have a valid OpenERP publisher warranty contract !</b>\n"
+"If you are using OpenERP in production, it is highly suggested to subscribe\n"
+"a publisher warranty program.\n"
+"\n"
+"The OpenERP publisher warranty contract provides you a bugfix guarantee and "
+"an\n"
+"automatic migration system so that we can fix your problems within a few\n"
+"hours. If you had a publisher warranty contract, this error would have been "
+"sent\n"
+"to the quality team of the OpenERP editor.\n"
+"\n"
+"The publisher warranty program offers you:\n"
+"* Automatic migrations on new versions,\n"
+"* A bugfix guarantee,\n"
+"* Monthly announces of potential bugs and their fixes,\n"
+"* Security alerts by email and automatic migration,\n"
+"* Access to the customer portal.\n"
+"\n"
+"You can use the link bellow for more information. The detail of the error\n"
+"is displayed on the second tab.\n"
+msgstr ""
+
+#: bin/common/common.py:459
+#, python-format
+msgid ""
+"\n"
+"<b>An unknown error has been reported.</b>\n"
+"\n"
+"Your publisher warranty contract does not cover all modules installed in "
+"your system !\n"
+"If you are using OpenERP in production, it is highly suggested to upgrade "
+"your\n"
+"contract.\n"
+"\n"
+"If you have developed your own modules or installed third party module, we\n"
+"can provide you an additional publisher warranty contract for these modules. "
+"After\n"
+"having reviewed your modules, our quality team will ensure they will "
+"migrate\n"
+"automatically for all future stable versions of OpenERP at no extra cost.\n"
+"\n"
+"Here is the list of modules not covered by your publisher warranty "
+"contract:\n"
+"%s\n"
+"\n"
+"You can use the link bellow for more information. The detail of the error\n"
+"is displayed on the second tab."
+msgstr ""
+
+#: bin/common/common.py:536
+msgid ""
+"Your problem has been sent to the quality team !\n"
+"We will recontact you after analysing the problem."
+msgstr ""
+"مشکل شما برای تیم کیفیت ارسال گردید!\n"
+"ما با شما پس از تحلیل مشکل دوباره تماس خواهیم گرفت."
+
+#: bin/common/common.py:539
+#, python-format
+msgid ""
+"Your problem could *NOT* be sent to the quality team !\n"
+"Please report this error manually at:\n"
+"\t%s"
+msgstr ""
+"مشکل شما برای تیم کیفیت ارسال *نگردید*!nلطفا این خطا را بصورت دستی یه\n"
+"\t %s گزارش نمایید."
+
+#: bin/common/common.py:539
+msgid "Error"
+msgstr "خطا"
+
+#: bin/common/common.py:695
+msgid "Open with..."
+msgstr "بازکردن با..."
+
+#: bin/translate.py:183
+#, python-format
+msgid "Unable to set locale %s: %s"
+msgstr ""
+
+#: bin/printer/printer.py:184
+#, python-format
+msgid "Unable to handle %s filetype"
+msgstr "ناتوانی در مدیریت %s نوع پرونده"
+
+#: bin/printer/printer.py:189
+msgid ""
+"Linux Automatic Printing not implemented.\n"
+"Use preview option !"
+msgstr ""
+"چاپ خودکار لینوکس پیاده‌سازی نشده.\n"
+"گزینه پیش‌نمایش را بکارگیرید"
+
+#: bin/printer/printer.py:212
+msgid "Error! No Data found. Make sure you have enough data to print!"
+msgstr ""
+
+#: bin/printer/printer.py:239
+msgid "Error writing the file!"
+msgstr "خطای نوشتن پرونده!"
+
+#: bin/openerp-client.py:141
+msgid "Closing OpenERP, KeyboardInterrupt"
+msgstr "بستن اپن ای‌آر‌پی، KeyboardInterrupt"
+
+#: bin/widget_search/reference.py:77 bin/widget_search/spinbutton.py:92
+#: bin/widget_search/custom_filter.py:141 bin/widget_search/filter.py:79
+#: bin/widget_search/char.py:72 bin/widget_search/spinint.py:94
+#: bin/widget_search/calendar.py:125 bin/widget_search/calendar.py:250
+#: bin/widget_search/checkbox.py:68 bin/widget_search/selection.py:116
+#: bin/widget/view/form_gtk/button.py:47
+msgid "The content of the widget or ValueError if not valid"
+msgstr "محتوای ابزارک یا خطای مقدار در صورت معتبر نبودن"
+
+#: bin/widget_search/form.py:500
+msgid "The content of the form or exception if not valid"
+msgstr "محتوای فرم یا استثنا درصورت عدم اعتبار"
+
+#: bin/widget_search/date_widget.py:65
+#: bin/widget/view/form_gtk/date_widget.py:65
+msgid ""
+"You can use special operation by pressing +, - or =.  Plus/minus "
+"adds/decrease the variable to the current selected date. Equals set part of "
+"selected date. Available variables: 12h = 12 hours, 8d = 8 days, 4w = 4 "
+"weeks, 1m = 1 month, 2y = 2 years. Some examples:\n"
+"* +21d : adds 21 days to selected year\n"
+"* =23w : set date to the 23th week of the year\n"
+"* -4m : decrease 4 months to the current date\n"
+"You can also use \"=\" to set the date to the current date/time and '-' to "
+"clear the field."
+msgstr ""
+"شما می توانید از گردانش ویژه بوسیله فشاردادن کلیدهای +، - یا = سود "
+"برید.مثبت/منفی مقدار متغییر تاریخ گزینش شده کنونی را کم/زیاد می‌کند. مساوی "
+"تاریخ گزینش شده راتنظیم می‌کند. متغییرهای موجود: 12h = ۱۲ ساعت، 8d = ۸ روز، "
+"4w = ۴ هفته، 1m = ۱ ماه، 2y = ۲سال. برخی نمونه‌ها:× +21d : ۲۱ روز به تاریخ "
+"گزینش شده اضافه می‌کند\n"
+"× =23w : تاریخ را به بیست و سومین هفته سال می‌برد\n"
+"× -4m : ۴ ماه از تاریخ کنونی کم می‌کند\n"
+"شما می‌توانید از \"=\" برای تنظیم تاریخ کنونی و \"-\" برای پاک کردن فیلد سود "
+"برید."
+
+#: bin/widget_search/wid_int.py:56
+msgid "The content of the widget or exception if not valid"
+msgstr "محتوای ابزارک یا استثنا در صورت معتبر نبودن"
+
+#: bin/widget_search/char.py:45
+msgid "Error: "
+msgstr ""
+
+#: bin/widget_search/calendar.py:49 bin/widget_search/calendar.py:177
+msgid "Start date"
+msgstr "تاریخ آغاز"
+
+#: bin/widget_search/calendar.py:53 bin/widget_search/calendar.py:73
+#: bin/widget_search/calendar.py:181 bin/widget_search/calendar.py:201
+#: bin/widget/view/form_gtk/calendar.py:57
+#: bin/widget/view/form_gtk/calendar.py:184
+msgid "Open the calendar widget"
+msgstr "باز کردن ابزارک گاهشمار"
+
+#: bin/widget_search/calendar.py:69 bin/widget_search/calendar.py:197
+msgid "End date"
+msgstr "تاریخ پایان"
+
+#: bin/widget_search/calendar.py:128 bin/widget_search/calendar.py:267
+#: bin/widget/view/form_gtk/calendar.py:135
+#: bin/widget/view/form_gtk/calendar.py:249
+msgid "OpenERP - Date selection"
+msgstr "اپن ای‌آر‌پی - گزینش تاریخ"
+
+#: bin/widget_search/custom_filter_widgets.py:40
+#: bin/widget_search/custom_filter_widgets.py:67
+#: bin/widget_search/custom_filter_widgets.py:99
+msgid "contains"
+msgstr ""
+
+#: bin/widget_search/custom_filter_widgets.py:41
+#: bin/widget_search/custom_filter_widgets.py:68
+#: bin/widget_search/custom_filter_widgets.py:99
+msgid "doesn't contain"
+msgstr ""
+
+#: bin/widget_search/custom_filter_widgets.py:295
+#: bin/widget_search/custom_filter_widgets.py:336
+msgid "is equal to"
+msgstr ""
+
+#: bin/widget_search/custom_filter_widgets.py:296
+#: bin/widget_search/custom_filter_widgets.py:337
+msgid "is not equal to"
+msgstr ""
+
+#: bin/widget_search/custom_filter_widgets.py:297
+#: bin/widget_search/custom_filter_widgets.py:338
+msgid "greater than"
+msgstr ""
+
+#: bin/widget_search/custom_filter_widgets.py:298
+#: bin/widget_search/custom_filter_widgets.py:339
+msgid "less than"
+msgstr ""
+
+#: bin/widget_search/custom_filter.py:62
+msgid "in"
+msgstr ""
+
+#: bin/widget_search/custom_filter.py:63
+msgid "not in"
+msgstr ""
+
+#: bin/widget_search/custom_filter.py:82
+msgid ""
+"Enter Values separated by ',' if operator 'in' or 'not in' is chosen.\n"
+"For Date and DateTime Formats, specify text in '%Y-%m-%d' and '%Y-%m-%d "
+"%H:%M:%S' formats respectively."
+msgstr ""
+
+#: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
+#: bin/widget_search/checkbox.py:55
+msgid "Yes"
+msgstr "بله"
+
+#: bin/widget_search/checkbox.py:36 bin/widget_search/checkbox.py:44
+msgid "No"
+msgstr "خیر"
+
+#: bin/widget/view/form.py:136
+msgid "You must save this record to use the relate button !"
+msgstr "شما باید این رکورد را برای بکارگیری از دکمه مرتبط ذخیره کنید!"
+
+#: bin/widget/view/form.py:141
+msgid "Action not defined !"
+msgstr ""
+
+#: bin/widget/view/form.py:211
+msgid "You must select a record to use the relate button !"
+msgstr "شما باید یک رکورد را برای بکارگیری دکمه مرتبط برگزینید!"
+
+#: bin/widget/view/form.py:237 bin/widget/view/form_gtk/parser.py:667
+#: bin/widget/view/form_gtk/parser.py:788
+#: bin/widget/view/form_gtk/parser.py:845
+msgid "No other language available!"
+msgstr "زبان دیگری موجود نیست!"
+
+#: bin/widget/view/form.py:244 bin/widget/view/form_gtk/parser.py:679
+#: bin/widget/view/form_gtk/parser.py:794
+#: bin/widget/view/form_gtk/parser.py:851
+msgid "Add Translation"
+msgstr "افزودن برگردان"
+
+#: bin/widget/view/form.py:292 bin/widget/view/form_gtk/parser.py:907
+msgid "Translate label"
+msgstr "برگردانی برچسب"
+
+#: bin/widget/view/calendar_gtk/parser.py:358 bin/openerp.ui.h:880
+msgid "Week"
+msgstr "هفته"
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:30
+msgid "Calendar View Error !"
+msgstr "خطای نمای گاهشمار"
+
+#: bin/widget/view/calendar_gtk/parser_dummy.py:31
+msgid "You must intall the library python-hippocanvas to use calendars."
+msgstr ""
+"شما باید کتابخانه python-hippocanvas را برای بکارگیری از این گاهشمار "
+"برپاسازی کنید."
+
+#: bin/widget/view/screen_container.py:73
+msgid "--Actions--"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:73
+msgid "Save as a Shortcut"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:73
+msgid "Save as a Filter"
+msgstr ""
+
+#: bin/widget/view/screen_container.py:73
+msgid "Manage Filters"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/parser.py:61
+msgid ""
+"You have unsaved record(s) !  \n"
+"\n"
+"Please Save them before sorting !"
+msgstr ""
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+#, python-format
+msgid "Shortcut: %s"
+msgstr "میان‌بر: %s"
+
+#: bin/widget/view/tree_gtk/editabletree.py:140
+msgid "F1 New - F2 Open/Search"
+msgstr "F1 نو - F2 بازکردن/جستجو"
+
+#: bin/widget/view/tree_gtk/editabletree.py:215
+#, python-format
+msgid "Warning; field %s is required!"
+msgstr "هشدار: فیلد %s نیاز است!"
+
+#: bin/widget/view/tree_gtk/date_renderer.py:197
+msgid ""
+"Press <i>'+'</i>, <i>'-'</i> or <i>'='</i> for special date operations."
+msgstr ""
+"برای گردانش خاص تاریخ <i>'+'</i>، <i>'-'</i> یا <i>'='</i> را فشار دهید."
+
+#: bin/widget/view/widget_parse.py:52
+#, python-format
+msgid "This type (%s) is not supported by the GTK client !"
+msgstr "این نوع (%s) توسط مشتری GTK پشتیبانی نمی‌شود!"
+
+#: bin/widget/view/widget_parse.py:76
+msgid "No valid view found for this object!"
+msgstr "نمای معتبری برای این شی پیدا نشد!"
+
+#: bin/widget/view/graph_gtk/parser.py:64
+msgid "Can not generate graph !"
+msgstr "نمودار را نمی‌توان ساخت!"
+
+#: bin/widget/view/diagram_gtk/xdot.py:1429
+msgid "Dot Viewer"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1719
+msgid "Add New Node"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1720
+msgid "Add New Edge"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1721
+msgid "Enlarge the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1722
+msgid "Shrink the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1723
+msgid "Fit the diagram to the window"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1724
+msgid "Show the diagram at its normal size"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1725
+msgid "Print the Diagram"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1796
+#, python-format
+msgid "Close Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1797
+#, python-format
+msgid "Delete Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1798
+#, python-format
+msgid "Edit Current %s"
+msgstr ""
+
+#: bin/widget/view/diagram_gtk/xdot.py:1882
+msgid " - Dot Viewer"
+msgstr ""
+
+#: bin/widget/view/form_gtk/reference.py:69 bin/openerp.ui.h:740
+msgid "Create a new resource"
+msgstr "ساخت یک منبع نو"
+
+#: bin/widget/view/form_gtk/reference.py:82
+msgid "Search / Open a resource"
+msgstr "جستجو / بازکردن یک منبع"
+
+#: bin/widget/view/form_gtk/parser.py:61
+msgid "Wrong icon for the button !"
+msgstr "آیکن برای دکمه اشتباه است!"
+
+#: bin/widget/view/form_gtk/parser.py:310
+msgid "Field"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:310
+msgid "Object"
+msgstr ""
+
+#: bin/widget/view/form_gtk/parser.py:651
+msgid "Enter some text to the related field before adding translations!"
+msgstr "پیش از افزودن برگردان‌ها متنی را در فیلد مرتبط وارد کنید!"
+
+#: bin/widget/view/form_gtk/parser.py:658
+msgid "You need to save resource before adding translations!"
+msgstr "شما نیاز دارید تا پیش از افزودن برگردان‌ها منبع را ذخیره کنید!"
+
+#: bin/widget/view/form_gtk/parser.py:912
+msgid "Translate view"
+msgstr "نمای برگردانی"
+
+#: bin/widget/view/form_gtk/one2many_list.py:64
+msgid "Cancel"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:70
+msgid "Save & Close"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:75
+msgid "Save & New"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:164
+#: bin/widget/view/form_gtk/interface.py:48
+msgid "Set to default value"
+msgstr "تنظیم به مقدار پیش‌فرض"
+
+#: bin/widget/view/form_gtk/one2many_list.py:167
+msgid "Set Default"
+msgstr "تنظیم به پیش‌فرض"
+
+#: bin/widget/view/form_gtk/one2many_list.py:196
+msgid "Create a new entry"
+msgstr "پدیدن یک ورودی نو"
+
+#: bin/widget/view/form_gtk/one2many_list.py:200
+msgid "Edit this entry"
+msgstr "ویرایش این ورودی"
+
+#: bin/widget/view/form_gtk/one2many_list.py:204
+msgid "Remove this entry"
+msgstr "برداشتن این ورودی"
+
+#: bin/widget/view/form_gtk/many2many.py:84
+#: bin/widget/view/form_gtk/one2many_list.py:210
+msgid "Previous Page"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:88
+#: bin/widget/view/form_gtk/one2many_list.py:214
+msgid "Previous Record"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:96
+#: bin/widget/view/form_gtk/one2many_list.py:222
+msgid "Next Record"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2many.py:100
+#: bin/widget/view/form_gtk/one2many_list.py:226
+msgid "Next Page"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:232
+msgid "Switch"
+msgstr "جابجایی"
+
+#: bin/widget/view/form_gtk/many2many.py:106
+#: bin/widget/view/form_gtk/one2many_list.py:238
+msgid "Choose Limit"
+msgstr ""
+
+#: bin/widget/view/form_gtk/one2many_list.py:279
+msgid "You have to select a resource !"
+msgstr "شما باید یک منبع را برگزینید!"
+
+#: bin/widget/view/form_gtk/image.py:73
+msgid "Set Image"
+msgstr "تنظیم تصویر"
+
+#: bin/widget/view/form_gtk/binary.py:84 bin/widget/view/form_gtk/image.py:82
+msgid "Save As"
+msgstr "ذخیره مانند"
+
+#: bin/widget/view/form_gtk/binary.py:88 bin/widget/view/form_gtk/image.py:93
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: bin/widget/view/form_gtk/image.py:102
+msgid "All files"
+msgstr "تمام پرونده‌ها"
+
+#: bin/widget/view/form_gtk/image.py:106
+msgid "Images"
+msgstr "تصاویر"
+
+#: bin/widget/view/form_gtk/image.py:131
+msgid "There is no image to save as !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/image.py:131
+msgid "Warning"
+msgstr ""
+
+#: bin/widget/view/form_gtk/many2one.py:156 bin/widget/view/form_gtk/url.py:53
+msgid "Open this resource"
+msgstr "بازکردن این منبع"
+
+#: bin/widget_search/custom_filter_widgets.py:89
+#: bin/widget/view/form_gtk/many2one.py:161
+msgid "Search a resource"
+msgstr "جستجوی یک منبع"
+
+#: bin/widget/view/form_gtk/many2one.py:172 bin/openerp.ui.h:712
+msgid "Action"
+msgstr "عمل"
+
+#: bin/widget/view/form_gtk/many2one.py:173
+msgid "Report"
+msgstr "گزارش"
+
+#: bin/widget/view/list.py:634 bin/widget/view/form_gtk/many2one.py:388
+msgid "You must select a record to use the relation !"
+msgstr "شما باید یک رکورد را برای بکارگرفتن رابطه برگزینید!"
+
+#: bin/widget/view/form_gtk/interface.py:49
+msgid "Set as default"
+msgstr "تنظیم به پیش‌فرض"
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "You can not set to the default value here !"
+msgstr ""
+
+#: bin/widget/view/form_gtk/interface.py:64
+msgid "Operation not permited"
+msgstr ""
+
+#: bin/widget/view/form_gtk/binary.py:76
+msgid "Select"
+msgstr "گزینش"
+
+#: bin/widget/view/form_gtk/binary.py:80
+msgid "Open"
+msgstr "بازکردن"
+
+#: bin/widget/view/form_gtk/binary.py:123
+#: bin/widget/view/form_gtk/binary.py:167
+msgid "Unable to read the file data"
+msgstr "عدم خواندن پرونده داده‌ای"
+
+#: bin/widget/view/form_gtk/binary.py:133
+#: bin/widget/view/form_gtk/binary.py:159
+#, python-format
+msgid "Error reading the file: %s"
+msgstr "خطا در هنگام خواندن پرونده: %s"
+
+#: bin/widget/view/form_gtk/binary.py:142
+msgid "All Files"
+msgstr "تمام پرونده‌ها"
+
+#: bin/widget/view/form_gtk/binary.py:152
+msgid "Select a file..."
+msgstr "گزینش یک پرونده..."
+
+#: bin/widget/view/form_gtk/binary.py:181
+#, python-format
+msgid "Error writing the file: %s"
+msgstr "خطای هنگام نوشتن پرونده: %s"
+
+#: bin/widget/view/form_gtk/wid_common.py:57
+msgid "Always applicable !"
+msgstr "همیشه قابل قبول!"
+
+#: bin/widget/view/form_gtk/calendar.py:99
+#: bin/widget/view/form_gtk/calendar.py:163
+msgid "Invalid date value! Year must be greater than 1899 !"
+msgstr "مقدار تاریخ نادرست! سال باید از ۱۸۹۹ بزرگتر باشد!"
+
+#: bin/widget_search/calendar.py:273 bin/widget/view/form_gtk/calendar.py:255
+msgid "Hour:"
+msgstr "ساعت:"
+
+#: bin/widget_search/calendar.py:276 bin/widget/view/form_gtk/calendar.py:258
+msgid "Minute:"
+msgstr "دقیقه:"
+
+#: bin/widget_search/calendar.py:312 bin/widget/view/form_gtk/calendar.py:291
+msgid "Invalid datetime value! Year must be greater than 1899 !"
+msgstr "مقدار نادرست تاریخ-ساعت! سال باید از ۱۸۹۹ بزرگتر باشد!"
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:30
+msgid "Gantt view not yet implemented !"
+msgstr "نمای گَنت هنوز پیاده‌سازی نشده!"
+
+#: bin/widget/view/gantt_gtk/parser_dummy.py:31
+msgid ""
+"The gantt view is not available in this GTK Client, you should use the web "
+"interface or switch to the calendar view."
+msgstr ""
+"نمای گَنت در این مشتری GTK موجود نیست، شما باید رابط کاربری وب را بکار گیرید "
+"یابه نمای گاهشمار سویچ کنید."
+
+#: bin/widget/screen/screen.py:343
+msgid ""
+"(Any existing filter with the \n"
+"same name will be replaced)"
+msgstr ""
+
+#: bin/rpc.py:158
+msgid "Connection refused!"
+msgstr "اتصال قطع شد!"
+
+#: bin/rpc.py:188
+msgid ""
+"Unable to reach to OpenERP server !\n"
+"You should check your connection to the network and the OpenERP server."
+msgstr ""
+"اتصال به کارپذیر اپن ای‌آر‌پی انجام نشد!\n"
+"شما باید اتصال خود را با شبکه و کارپذیر اپن ای‌آر‌پی بررسی کنید."
+
+#: bin/rpc.py:188
+msgid "Connection Error"
+msgstr "خطای اتصال"
+
+#: bin/openerp.ui.h:815
+msgid "OpenERP - Login"
+msgstr "اپن ای‌آر‌پی - ورود"
+
+#: bin/openerp.ui.h:742
+msgid "Database:"
+msgstr "دادگان:"
+
+#: bin/openerp.ui.h:876
+msgid "User:"
+msgstr "کاربر:"
+
+#: bin/openerp.ui.h:824
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: bin/openerp.ui.h:897
+msgid "_File"
+msgstr "_پرونده"
+
+#: bin/openerp.ui.h:886
+msgid "_Connect..."
+msgstr "_اتصال..."
+
+#: bin/openerp.ui.h:890
+msgid "_Disconnect"
+msgstr "_قطع اتصال"
+
+#: bin/openerp.ui.h:743
+msgid "Databases"
+msgstr "دادگان‌ها"
+
+#: bin/openerp.ui.h:908
+msgid "_New database"
+msgstr "_دادگان‌ نو"
+
+#: bin/openerp.ui.h:919
+msgid "_Restore database"
+msgstr "_بازگردانی دادگان"
+
+#: bin/openerp.ui.h:885
+msgid "_Backup database"
+msgstr "_پشتوانه گیری دادگان"
+
+#: bin/openerp.ui.h:749
+msgid "Dro_p database"
+msgstr "_انداختن دادگان"
+
+#: bin/openerp.ui.h:893
+msgid "_Download Migrations Code"
+msgstr "_داونلود کدهای کوچ"
+
+#: bin/openerp.ui.h:905
+msgid "_Migrate Database(s)"
+msgstr "_کوچ دادگان‌(ها)"
+
+#: bin/openerp.ui.h:716
+msgid "Administrator Password"
+msgstr "گذرواژه راهبر"
+
+#: bin/openerp.ui.h:925
+msgid "_User"
+msgstr "_کاربر"
+
+#: bin/openerp.ui.h:914
+msgid "_Preferences"
+msgstr "_ترجیحات"
+
+#: bin/openerp.ui.h:922
+msgid "_Send a request"
+msgstr "_ارسال یک درخواست"
+
+#: bin/openerp.ui.h:917
+msgid "_Read my requests"
+msgstr "_خواندن درخواست‌های من"
+
+#: bin/openerp.ui.h:926
+msgid "_Waiting Requests"
+msgstr "_درخواست‌های در حال انتظار"
+
+#: bin/openerp.ui.h:768
+msgid "For_m"
+msgstr "_فرم"
+
+#: bin/openerp.ui.h:906
+msgid "_New"
+msgstr "_نو"
+
+#: bin/openerp.ui.h:920
+msgid "_Save"
+msgstr "_ذخیره"
+
+#: bin/openerp.ui.h:738
+msgid "Copy this resource"
+msgstr "بازکردن این منبع"
+
+#: bin/openerp.ui.h:894
+msgid "_Duplicate"
+msgstr "تک_ثیر"
+
+#: bin/openerp.ui.h:889
+msgid "_Delete"
+msgstr "_ستردن"
+
+#: bin/openerp.ui.h:766
+msgid "Find"
+msgstr "پیدا کردن"
+
+#: bin/openerp.ui.h:792
+msgid "Ne_xt"
+msgstr "ب_عدی"
+
+#: bin/openerp.ui.h:828
+msgid "Pre_vious"
+msgstr "قب_لی"
+
+#: bin/openerp.ui.h:860
+msgid "Switch to list/form"
+msgstr "جابجایی به فهرست/فرم"
+
+#: bin/openerp.ui.h:903
+msgid "_Menu"
+msgstr "_منو"
+
+#: bin/openerp.ui.h:907
+msgid "_New Home Tab"
+msgstr "_زبانه خانه نو"
+
+#: bin/openerp.ui.h:730
+msgid "Close Tab"
+msgstr "بستن زبانه"
+
+#: bin/openerp.ui.h:833
+msgid "Previous Tab"
+msgstr "زبانه پیشین"
+
+#: bin/openerp.ui.h:799
+msgid "Next Tab"
+msgstr "زبانه پسین"
+
+#: bin/openerp.ui.h:879
+msgid "View _logs"
+msgstr "دیدن _لاگ‌ها"
+
+#: bin/openerp.ui.h:899
+msgid "_Go to resource ID..."
+msgstr "_رفتن به شناسه منبع..."
+
+#: bin/openerp.ui.h:910
+msgid "_Open"
+msgstr "_باز کردن"
+
+#: bin/openerp.ui.h:840
+msgid "Reloa_d / Undo"
+msgstr "_بازخوانی/آندو"
+
+#: bin/openerp.ui.h:843
+msgid "Repeat latest _action"
+msgstr "_تکرار واپسین کُنش"
+
+#: bin/openerp.ui.h:915
+msgid "_Preview in PDF"
+msgstr "_پیش‌نمایش"
+
+#: bin/openerp.ui.h:831
+msgid "Previe_w in editor"
+msgstr "_پیش‌نمایش در ویرایشگر"
+
+#: bin/openerp.ui.h:757
+msgid "Expor_t data..."
+msgstr "_برونش داده..."
+
+#: bin/openerp.ui.h:777
+msgid "I_mport data..."
+msgstr "_ورود داده..."
+
+#: bin/openerp.ui.h:912
+msgid "_Options"
+msgstr "_گزینه‌ها"
+
+#: bin/openerp.ui.h:896
+msgid "_Extension Manager"
+msgstr "_مدیر افزونه"
+
+#: bin/openerp.ui.h:904
+msgid "_Menubar"
+msgstr "_نوار منو"
+
+#: bin/openerp.ui.h:865
+msgid "Text _and Icons"
+msgstr "_متن و شمایل‌"
+
+#: bin/openerp.ui.h:901
+msgid "_Icons only"
+msgstr "_فقط شمایل‌ها"
+
+#: bin/openerp.ui.h:924
+msgid "_Text only"
+msgstr "_فقط متن"
+
+#: bin/openerp.ui.h:898
+msgid "_Forms"
+msgstr "_فرم‌ها"
+
+#: bin/openerp.ui.h:847
+msgid "Right Toolbar"
+msgstr "نوار ابزار سمت راست"
+
+#: bin/openerp.ui.h:863
+msgid "Tabs default position"
+msgstr "موقعیت پیش‌فرض زبانه‌ها"
+
+#: bin/openerp.ui.h:872
+msgid "Top"
+msgstr "بالا"
+
+#: bin/openerp.ui.h:784
+msgid "Left"
+msgstr "چپ"
+
+#: bin/openerp.ui.h:846
+msgid "Right"
+msgstr "راست"
+
+#: bin/openerp.ui.h:721
+msgid "Bottom"
+msgstr "پایین"
+
+#: bin/openerp.ui.h:862
+msgid "Tabs default orientation"
+msgstr "جهت پیش‌فرض زبانه‌ها"
+
+#: bin/openerp.ui.h:776
+msgid "Horizontal"
+msgstr "افقی"
+
+#: bin/openerp.ui.h:877
+msgid "Vertical"
+msgstr "عمودی"
+
+#: bin/openerp.ui.h:916
+msgid "_Print"
+msgstr "_چاپ"
+
+#: bin/openerp.ui.h:830
+msgid "Previe_w before print"
+msgstr "_پیش‌نمایش پیش از چاپ"
+
+#: bin/openerp.ui.h:921
+msgid "_Save options"
+msgstr "_ذخیره گزینه‌ها"
+
+#: bin/openerp.ui.h:913
+msgid "_Plugins"
+msgstr "_پلاگین‌ها"
+
+#: bin/openerp.ui.h:895
+msgid "_Execute a plugin"
+msgstr "_یک پلاگین را اجرا کنید"
+
+#: bin/openerp.ui.h:923
+msgid "_Shortcuts"
+msgstr "_میان‌برها"
+
+#: bin/openerp.ui.h:900
+msgid "_Help"
+msgstr "_راهنما"
+
+#: bin/openerp.ui.h:753
+msgid "Enable Debug Mode Tooltips"
+msgstr ""
+
+#: bin/openerp.ui.h:859
+msgid "Support Request"
+msgstr "درخواست پشتیبانی"
+
+#: bin/openerp.ui.h:875
+msgid "User _Manual"
+msgstr "_کتابچه راهنمای کاربر"
+
+#: bin/openerp.ui.h:888
+msgid "_Contextual Help"
+msgstr "_راهنمای زمینه‌ای"
+
+#: bin/openerp.ui.h:780
+msgid "Keyboard Shortcuts"
+msgstr "میان‌برهای صفحه‌کلید"
+
+#: bin/openerp.ui.h:902
+msgid "_License"
+msgstr "_مجوز"
+
+#: bin/openerp.ui.h:883
+msgid "_About..."
+msgstr "_درباره..."
+
+#: bin/openerp.ui.h:750
+msgid "Edit / Save this resource"
+msgstr "ویرایش/ذخیره این منبع"
+
+#: bin/openerp.ui.h:747
+msgid "Delete this resource"
+msgstr "ستردن این منبع"
+
+#: bin/openerp.ui.h:772
+msgid "Go to previous matched search"
+msgstr "رفتن به جستجوی جور پیشین"
+
+#: bin/openerp.ui.h:832
+msgid "Previous"
+msgstr "پیش"
+
+#: bin/openerp.ui.h:771
+msgid "Go to next matched resource"
+msgstr "رفتن به منبع جور پسین"
+
+#: bin/openerp.ui.h:798
+msgid "Next"
+msgstr "پس"
+
+#: bin/openerp.ui.h:786
+msgid "List"
+msgstr "فهرست"
+
+#: bin/openerp.ui.h:769
+msgid "Form"
+msgstr "فرم"
+
+#: bin/openerp.ui.h:723
+msgid "Calendar"
+msgstr "گاهشمار"
+
+#: bin/openerp.ui.h:748
+msgid "Diagram"
+msgstr ""
+
+#: bin/openerp.ui.h:774
+msgid "Graph"
+msgstr "نمودار"
+
+#: bin/openerp.ui.h:770
+msgid "Gantt"
+msgstr "گانت"
+
+#: bin/openerp.ui.h:837
+msgid "Print documents"
+msgstr "چاپ اسناد"
+
+#: bin/openerp.ui.h:783
+msgid "Launch actions about this resource"
+msgstr "فعالیت‌های مربوط به این منبع را اجرا کن"
+
+#: bin/openerp.ui.h:715
+msgid "Add an attachment to this resource"
+msgstr "افزودن یک پیوست به این منبع"
+
+#: bin/openerp.ui.h:717
+msgid "Attachment"
+msgstr "پیوست"
+
+#: bin/openerp.ui.h:789
+msgid "Menu"
+msgstr "منو"
+
+#: bin/openerp.ui.h:841
+msgid "Reload"
+msgstr "بازخوانی"
+
+#: bin/openerp.ui.h:731
+msgid "Close this window"
+msgstr "بستن این پنجره"
+
+#: bin/openerp.ui.h:733
+msgid "Company:"
+msgstr ""
+
+#: bin/openerp.ui.h:844
+msgid "Requests:"
+msgstr "درخواست‌ها:"
+
+#: bin/openerp.ui.h:839
+msgid "Read my Requests"
+msgstr "خواندن درخواست‌های من"
+
+#: bin/openerp.ui.h:853
+msgid "Send a new request"
+msgstr "ارسال یک درخواست نو"
+
+#: bin/openerp.ui.h:819
+msgid "OpenERP - Tree Resources"
+msgstr "اپن ای‌آر‌پی - منابع درختی"
+
+#: bin/openerp.ui.h:857
+msgid "Shortcuts"
+msgstr "میان‌برها"
+
+#: bin/openerp.ui.h:813
+msgid "OpenERP - Forms"
+msgstr "اپن ای‌آر‌پی - فرم‌ها"
+
+#: bin/openerp.ui.h:858
+msgid "State:"
+msgstr "وضعیت:"
+
+#: bin/openerp.ui.h:809
+msgid "OpenERP - About"
+msgstr "اپن ای‌آر‌پی - درباره"
+
+#: bin/openerp.ui.h:678
+msgid ""
+"<b>About OpenERP</b>\n"
+"<i>The most advanced Open Source ERP &amp; CRM !</i>"
+msgstr ""
+"<b>درباره اپن ای‌آر‌پی</b>\n"
+"<i>پیشرفته‌ترین ERP/CRM بازمتن!</i>"
+
+#: bin/openerp.ui.h:14
+#, no-c-format
+msgid ""
+"\n"
+"OpenERP - GTK Client - v%s\n"
+"\n"
+"OpenERP is an Open Source ERP+CRM\n"
+"for small to medium businesses.\n"
+"\n"
+"The whole source code is distributed under\n"
+"the terms of the GNU Public Licence.\n"
+"\n"
+"(c) 2003-TODAY, Tiny sprl\n"
+"\n"
+"More Info on www.openerp.com !"
+msgstr ""
+"\n"
+"اپن ای‌آر‌پی - کارخواه GTK - نگارش %s\n"
+"اپن ای‌آر‌پی یک ERP+CRM بازمتن برای تجارت‌های کوچک\n"
+"و متوسط است.\n"
+"\n"
+"تمامی کدهای مبدا تحت شرایط مجوز GPL منتشر شده اند.\n"
+"\n"
+"حق تکثیر از سال ۲۰۰۳ تا به امروز برای Tiny sprl محفوظ است.\n"
+"\n"
+"آگهگان بیشتر در http://www.openerp.com !"
+
+#: bin/openerp.ui.h:911
+msgid "_OpenERP"
+msgstr "اُ_پن ای‌آر‌پی"
+
+#: bin/openerp.ui.h:1
+msgid ""
+"\n"
+"(c) 2003-TODAY - Tiny sprl\n"
+"OpenERP is a product of Tiny sprl:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"Belgium\n"
+"\n"
+"Tel : (+32)81.81.37.00\n"
+"Mail: sales@tiny.be\n"
+"Web: http://tiny.be"
+msgstr ""
+"\n"
+"حق تکثیر از سال ۲۰۰۳ تا به امروز برای Tiny sprl محفوظ است\n"
+"اپن ای‌آر‌پی فرآورده Tiny sprl است:\n"
+"\n"
+"Tiny sprl\n"
+"40 Chaussée de Namur\n"
+"1367 Gérompont\n"
+"Belgium\n"
+"\n"
+"Tel : (+32)81.81.37.00\n"
+"Mail: sales@tiny.be\n"
+"Web: http://tiny.be"
+
+#: bin/openerp.ui.h:887
+msgid "_Contact"
+msgstr "_تماس"
+
+#: bin/openerp.ui.h:804
+msgid "Open ERP - Forms widget"
+msgstr "اپن ای‌آر‌پی - ابزارک فرم‌ها"
+
+#: bin/openerp.ui.h:810
+msgid "OpenERP - Confirmation"
+msgstr "اپن ای‌آر‌پی - تایید"
+
+#: bin/openerp.ui.h:818
+msgid "OpenERP - Selection"
+msgstr "اپن ای‌آر‌پی - گزینش"
+
+#: bin/openerp.ui.h:882
+msgid "Your selection:"
+msgstr "گزینش‌ شما:"
+
+#: bin/openerp.ui.h:811
+msgid "OpenERP - Dialog"
+msgstr "اپن ای‌آر‌پی - محاوره"
+
+#: bin/openerp.ui.h:822
+msgid "OpenERP, Field Preference target"
+msgstr "اپن ای‌آر‌پی، هدف ترجیحات فیلد"
+
+#: bin/openerp.ui.h:927
+msgid "_only for you"
+msgstr "_تنها برای شما"
+
+#: bin/openerp.ui.h:929
+msgid "for _all users"
+msgstr "_برای همه کاربران"
+
+#: bin/openerp.ui.h:699
+msgid "<b>Value applicable for:</b>"
+msgstr "<b>مقدار قابل قبول برای:</b>"
+
+#: bin/openerp.ui.h:700
+msgid "<b>Value applicable if:</b>"
+msgstr "<b>مقدار قابل قبول است اگر:</b>"
+
+#: bin/openerp.ui.h:762
+msgid "Field _Name:"
+msgstr "_نام فیلد:"
+
+#: bin/openerp.ui.h:892
+msgid "_Domain:"
+msgstr "_دامنه:"
+
+#: bin/openerp.ui.h:745
+msgid "Default _value:"
+msgstr "_مقدار پیش‌فرض:"
+
+#: bin/openerp.ui.h:812
+msgid "OpenERP - Export to CSV"
+msgstr "اپن ای‌آر‌پی - برونش به CSV"
+
+#: bin/openerp.ui.h:849
+msgid "Save List"
+msgstr "ذخیره فهرست"
+
+#: bin/openerp.ui.h:842
+msgid "Remove List"
+msgstr "برداشتن فهرست"
+
+#: bin/openerp.ui.h:689
+msgid "<b>Exports List</b>"
+msgstr "<b>فهرست برونش‌ها</b>"
+
+#: bin/openerp.ui.h:692
+msgid "<b>Predefined Exports</b>"
+msgstr "<b>برونش‌های از پیش تعریف شده</b>"
+
+#: bin/openerp.ui.h:778
+msgid "Import Compatible"
+msgstr "سازگار با درونش"
+
+#: bin/openerp.glade:2862
+msgid "<b>Select an Option to Export</b>"
+msgstr "<b>یک گزینه را برای برونش برگزینید</b>"
+
+#: bin/openerp.ui.h:720
+msgid "Available Fields"
+msgstr "فیلدهای موجود"
+
+#: bin/openerp.ui.h:884
+msgid "_Add"
+msgstr "_افزودن"
+
+#: bin/openerp.ui.h:918
+msgid "_Remove"
+msgstr "_برداشتن"
+
+#: bin/openerp.ui.h:909
+msgid "_Nothing"
+msgstr "_هیچ چیز"
+
+#: bin/openerp.ui.h:763
+msgid "Fields to Export"
+msgstr "فیلدها برای برونش"
+
+#: bin/openerp.glade:3132
+msgid ""
+"Open in Excel\n"
+"Save as CSV"
+msgstr ""
+"بازکردن در Excel \n"
+"ذخیره مانند CSV"
+
+#: bin/openerp.glade:3151
+msgid "Add _field names"
+msgstr "_افزودن نام فیلدها"
+
+#: bin/openerp.ui.h:691
+msgid "<b>Opti_ons</b>"
+msgstr "<b>گزینه‌ها_</b>"
+
+#: bin/openerp.ui.h:817
+msgid "OpenERP - Search"
+msgstr "اپن ای‌آر‌پی - جستجو"
+
+#: bin/openerp.ui.h:816
+msgid "OpenERP - Preferences"
+msgstr "اپن ای‌آر‌پی - ترجیحات"
+
+#: bin/openerp.ui.h:698
+msgid "<b>User preferences</b>"
+msgstr "<b>ترجیحات کاربر</b>"
+
+#: bin/openerp.ui.h:870
+msgid "Tip of the Day"
+msgstr "نکته روز"
+
+#: bin/openerp.ui.h:891
+msgid "_Display a new tip next time?"
+msgstr "_نمایش یک نکته نو در بار پسین؟"
+
+#: bin/openerp.ui.h:829
+msgid "Pre_vious Tip"
+msgstr "_نکته قبلی"
+
+#: bin/openerp.ui.h:793
+msgid "Ne_xt Tip"
+msgstr "_نکته بعدی"
+
+#: bin/openerp.ui.h:814
+msgid "OpenERP - License"
+msgstr "اپن ای‌آر‌پی - مجوز"
+
+#: bin/openerp.ui.h:821
+msgid "OpenERP license"
+msgstr "مجوز اپن ای‌آر‌پی"
+
+#: bin/openerp.ui.h:773
+msgid "Go to resource ID"
+msgstr "رفتن به شناسه منبع"
+
+#: bin/openerp.ui.h:852
+msgid "Search ID:"
+msgstr "جستجوی شناسه:"
+
+#: bin/openerp.ui.h:683
+msgid ""
+"<b>Complete this form to submit your bug and/or send a support request.</b>\n"
+"<i>\n"
+"Your request will be sent to the OpenERP team and we will reply shortly.\n"
+"Note that we may not reply if you do not have a support contract with Tiny "
+"or an official partner.</i>"
+msgstr ""
+"<b>این فرم را برای ارسال باگ و/یا درخواست پشتیبانی تکمیل کنید.</b>\n"
+"<i>\n"
+"درخواست شما برای تیم اپن ای‌آر‌پی ارسال خواهد شد و بزودی پاسخ آن را دریافت "
+"خواهید کرد.\n"
+"توجه داشته باشید که ما ممکن است به درخواست شما در صورتی که قرارداد پشتیبانی\n"
+" با Tiny یا یک همکار رسمی آن نداشته باشید، پاسخی ندهیم.\n"
+"</i>"
+
+#: bin/openerp.ui.h:826
+msgid "Phone number:"
+msgstr "شماره تلفن:"
+
+#: bin/openerp.ui.h:752
+msgid "Emergency:"
+msgstr "فوری:"
+
+#: bin/openerp.glade:4478
+msgid ""
+"Not Urgent\n"
+"Medium\n"
+"Urgent\n"
+"Very Urgent"
+msgstr ""
+"غیر فوری\n"
+"عادی\n"
+"فوری\n"
+"بسیار فوری"
+
+#: bin/openerp.ui.h:697
+msgid "<b>Support contract id:</b>"
+msgstr "<b>شناسه قرارداد پشتیبانی:</b>"
+
+#: bin/openerp.ui.h:823 bin/win_error.ui.h:11
+msgid "Other comments:"
+msgstr "نظرهای دیگر:"
+
+#: bin/openerp.ui.h:756
+msgid "Explain your problem:"
+msgstr "شرح مشکل شما:"
+
+#: bin/openerp.ui.h:702
+msgid "<b>Your email:</b>"
+msgstr "<b>ایمیل شما:</b>"
+
+#: bin/openerp.ui.h:701
+msgid "<b>Your Company:</b>"
+msgstr "<b>شرکت شما:</b>"
+
+#: bin/openerp.ui.h:703
+msgid "<b>Your name:</b>"
+msgstr "<b>نام شما:</b>"
+
+#: bin/openerp.ui.h:775
+msgid "Hello World!"
+msgstr "سلام بر همه!"
+
+#: bin/openerp.ui.h:781
+msgid "Keyboard shortcuts"
+msgstr "میان‌برهای صفحه کلید"
+
+#: bin/openerp.ui.h:694
+msgid "<b>Shortcuts for OpenERP</b>"
+msgstr "<b>میان‌برهای اپن ای‌آر‌پی</b>"
+
+#: bin/openerp.ui.h:732
+msgid "Close window without saving"
+msgstr "بستن پنجره بدون ذخیره کردن"
+
+#: bin/openerp.ui.h:651
+msgid "<Ctrl> + <Esc>"
+msgstr "<Ctrl> + <Esc>"
+
+#: bin/openerp.ui.h:704
+msgid "<i>When editing a resource in a popup window</i>"
+msgstr "<i>هنگامی که یک منبع را در یک پنجره کرکره‌ای ویرایش می‌کنید</i>"
+
+#: bin/openerp.ui.h:850
+msgid "Save and Close window"
+msgstr "ذخیره و بستن پنجره"
+
+#: bin/openerp.ui.h:650
+msgid "<Ctrl> + <Enter>"
+msgstr "<Ctrl> + <Enter>"
+
+#: bin/openerp.ui.h:861
+msgid "Switch view mode"
+msgstr "جابجایی حالت نما"
+
+#: bin/openerp.ui.h:657
+msgid "<Ctrl> + L"
+msgstr "<Ctrl> + L"
+
+#: bin/openerp.ui.h:801
+msgid "Next record"
+msgstr "رکورد پسین"
+
+#: bin/openerp.ui.h:835
+msgid "Previous record"
+msgstr "رکورد پیشین"
+
+#: bin/openerp.ui.h:665
+msgid "<PgDn>"
+msgstr "<PgDn>"
+
+#: bin/openerp.ui.h:666
+msgid "<PgUp>"
+msgstr "<PgUp>"
+
+#: bin/openerp.ui.h:848
+msgid "Save"
+msgstr "ذخیره"
+
+#: bin/openerp.ui.h:662
+msgid "<Ctrl> + W"
+msgstr "<Ctrl> + W"
+
+#: bin/openerp.ui.h:660
+msgid "<Ctrl> + S"
+msgstr "<Ctrl> + S"
+
+#: bin/openerp.ui.h:652
+msgid "<Ctrl> + <PgDn>"
+msgstr "<Ctrl> + <PgDn>"
+
+#: bin/openerp.ui.h:836
+msgid "Previous tab"
+msgstr "زبانه پیشین"
+
+#: bin/openerp.ui.h:653
+msgid "<Ctrl> + <PgUp>"
+msgstr "<Ctrl> + <PgUp>"
+
+#: bin/openerp.ui.h:794
+msgid "New"
+msgstr "نو"
+
+#: bin/openerp.ui.h:658
+msgid "<Ctrl> + N"
+msgstr "<Ctrl> + N"
+
+#: bin/openerp.ui.h:746
+msgid "Delete"
+msgstr "ستردن"
+
+#: bin/openerp.ui.h:655
+msgid "<Ctrl> + D"
+msgstr "<Ctrl> + D"
+
+#: bin/openerp.ui.h:767
+msgid "Find / Search"
+msgstr "پیدا کردن / جستجو"
+
+#: bin/openerp.ui.h:656
+msgid "<Ctrl> + F"
+msgstr "<Ctrl> + F"
+
+#: bin/openerp.ui.h:736
+msgid "Connect"
+msgstr "اتصال"
+
+#: bin/openerp.ui.h:659
+msgid "<Ctrl> + O"
+msgstr "<Ctrl> + O"
+
+#: bin/openerp.ui.h:787
+msgid "Main Shortcuts"
+msgstr "میان‌برهای اصلی"
+
+#: bin/openerp.ui.h:760
+msgid "F2"
+msgstr "F2"
+
+#: bin/openerp.ui.h:695
+msgid "<b>Shortcuts in relation fields</b>"
+msgstr "<b>میان‌برها در فیلدهای رابطه</b>"
+
+#: bin/openerp.ui.h:696
+msgid "<b>Shortcuts in text entries</b>"
+msgstr "<b>میان‌برها در ورودی‌های متنی</b>"
+
+#: bin/openerp.ui.h:805
+msgid "Open current field"
+msgstr "بازکردن فیلد کنونی"
+
+#: bin/openerp.ui.h:714
+msgid "Add a new line/field"
+msgstr "افزودن یک خط/فیلد نو"
+
+#: bin/openerp.ui.h:759
+msgid "F1"
+msgstr "F1"
+
+#: bin/openerp.ui.h:718
+msgid "Auto-Complete text field"
+msgstr "تدرست خودکار فیلد متنی"
+
+#: bin/openerp.ui.h:664
+msgid "<Enter>"
+msgstr "<Enter>"
+
+#: bin/openerp.ui.h:834
+msgid "Previous editable widget"
+msgstr "ابزارک ویرایش‌شدنی پیشین"
+
+#: bin/openerp.ui.h:667
+msgid "<Shift> + <Tab>"
+msgstr "<Shift> + <Tab>"
+
+#: bin/openerp.ui.h:800
+msgid "Next editable widget"
+msgstr "ابزارک ویرایش‌شدنی پسین"
+
+#: bin/openerp.ui.h:668
+msgid "<Tab>"
+msgstr "<Tab>"
+
+#: bin/openerp.ui.h:825
+msgid "Paste selected text"
+msgstr "چسباندن متن گزینش شده"
+
+#: bin/openerp.ui.h:737
+msgid "Copy selected text"
+msgstr "کپی از متن گزینش شده"
+
+#: bin/openerp.ui.h:741
+msgid "Cut selected text"
+msgstr "بریدن متن گزینش شده"
+
+#: bin/openerp.ui.h:661
+msgid "<Ctrl> + V"
+msgstr "<Ctrl> + V"
+
+#: bin/openerp.ui.h:654
+msgid "<Ctrl> + C"
+msgstr "<Ctrl> + C"
+
+#: bin/openerp.ui.h:663
+msgid "<Ctrl> + X"
+msgstr "<Ctrl> + X"
+
+#: bin/openerp.ui.h:751
+msgid "Edition Widgets"
+msgstr "ابزارک‌های ویرایش"
+
+#: bin/openerp.ui.h:779
+msgid "Import from CSV"
+msgstr "درونش از CSV"
+
+#: bin/openerp.ui.h:680
+msgid "<b>All fields</b>"
+msgstr "<b>تمامی فیلدها</b>"
+
+#: bin/openerp.ui.h:791
+msgid "N_othing"
+msgstr "_هیچ چیز"
+
+#: bin/openerp.ui.h:719
+msgid "Auto-Detect"
+msgstr "شناسایی خودکار"
+
+#: bin/openerp.ui.h:690
+msgid "<b>Fields to import</b>"
+msgstr "<b>فیلدها برای درونش</b>"
+
+#: bin/openerp.glade:5891
+msgid "File to Import:"
+msgstr "پرونده برای درونش:"
+
+#: bin/openerp.ui.h:785
+msgid "Lines to Skip:"
+msgstr "خطوطی که از قلم می‌افتند:"
+
+#: bin/openerp.ui.h:864
+msgid "Text Delimiter:"
+msgstr "جداساز متن:"
+
+#: bin/openerp.ui.h:754
+msgid "Encoding:"
+msgstr "کدگذاری:"
+
+#: bin/openerp.glade:6035
+msgid "Field Separater:"
+msgstr "جداساز فیلد:"
+
+#: bin/openerp.ui.h:722
+msgid "CSV Parameters"
+msgstr "پارامترهای CSV"
+
+#: bin/openerp.ui.h:855
+msgid "Server"
+msgstr "کارپذیر"
+
+#: bin/openerp.ui.h:687
+msgid "<b>Connect to a OpenERP server</b>"
+msgstr "<b>اتصال به یک کارپذیر اپن ای‌آر‌پی</b>"
+
+#: bin/openerp.ui.h:838
+msgid "Protocol connection:"
+msgstr "پروتکل اتصال:"
+
+#: bin/openerp.ui.h:827
+msgid "Port:"
+msgstr "درگاه:"
+
+#: bin/openerp.ui.h:727
+msgid "Choose a database..."
+msgstr "برگزیدن دادگان..."
+
+#: bin/openerp.ui.h:681
+msgid "<b>Backup a database</b>"
+msgstr "<b>پشتوانه‌گیری از یک دادگان</b>"
+
+#: bin/openerp.ui.h:845
+msgid "Restore a database"
+msgstr "بازگردانی یک دادگان"
+
+#: bin/openerp.ui.h:693
+msgid "<b>Restore a database</b>"
+msgstr "<b>بازگردانی یک دادگان</b>"
+
+#: bin/openerp.ui.h:649
+msgid "(must not contain any special char)"
+msgstr "(نباید دارای هیچ نویسه ویژه‌ای باشد)"
+
+#: bin/openerp.ui.h:795
+msgid "New database name:"
+msgstr "نام دادگان نو:"
+
+#: bin/openerp.ui.h:930
+msgid "http://localhost:8069"
+msgstr "http://localhost:8069"
+
+#: bin/openerp.ui.h:739
+msgid "Create a new database"
+msgstr "پدیدن یک دادگان نو"
+
+#: bin/openerp.ui.h:688
+msgid "<b>Create a new database</b>"
+msgstr "<b>پدیدن یک دادگان نو</b>"
+
+#: bin/openerp.ui.h:866
+msgid ""
+"This is the URL of the OpenERP server. Use 'localhost' if the server is "
+"installed on this computer. Click on 'Change' to change the address."
+msgstr ""
+"این URL  کارپذیر اپن ای‌آر‌پی است. از 'localhost' در صورتی بکار گیرید "
+"کارپذیر به روی رایانه شما برپاسازی شده باشد. روی 'تغییر' برای تغییر نشانی "
+"کلیک کنید."
+
+#: bin/openerp.ui.h:710
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>OpenERP Server:"
+msgstr ""
+
+#: bin/openerp.ui.h:869
+msgid ""
+"This is the password of the user that have the rights to administer "
+"databases. This is not a OpenERP user, just a super administrator. If you "
+"did not changed it, the password is 'admin' after installation."
+msgstr ""
+"این گذرواژه کاربری است که دسترسی‌های مدیریت دادگان را دارد. این یک کاربر "
+"معمولی اپن ای‌آر‌پی نیست بلکه یک کاربر همه‌کاره است. اگر آن را تغییر ندهید، "
+"گذرواژه 'admin' پس از برپاسازی معتبر خواهد بود."
+
+#: bin/openerp.ui.h:711
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Super "
+"Administrator Password:"
+msgstr ""
+
+#: bin/openerp.ui.h:928
+msgid "admin"
+msgstr ""
+
+#: bin/openerp.ui.h:648
+msgid "(<i>admin</i>, by default)"
+msgstr "(<i>admin</i>، بصورت پیش‌فرض)"
+
+#: bin/openerp.ui.h:729
+msgid ""
+"Choose the name of the database that will be created. The name must not "
+"contain any special character. Exemple: 'terp'."
+msgstr ""
+"نام دادگانی که پدید خواهد آمد را برگزینید. نام نباید دارای نویسه‌های ویژه "
+"باشد. نمونه : 'terp'."
+
+#: bin/openerp.ui.h:709
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>New Database Name:"
+msgstr ""
+
+#: bin/openerp.ui.h:728
+msgid ""
+"Choose the default language that will be installed for this database. You "
+"will be able to install new languages after installation through the "
+"administration menu."
+msgstr ""
+"زبان پیش‌فرضی که برای این دادگان برپاسازی خواهد شد را برگزینید. شما پس از "
+"برپاسازی از طریق منوی راهبری قادر خواهید بود تا زبان نویی را برپاسازی نمایید."
+
+#: bin/openerp.ui.h:707
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Default Language:"
+msgstr ""
+
+#: bin/openerp.ui.h:867
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database."
+msgstr ""
+
+#: bin/openerp.ui.h:705
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Administrator "
+"Password:"
+msgstr ""
+
+#: bin/openerp.ui.h:868
+msgid ""
+"This is the password of the 'admin' user that will be created in your new "
+"database. It has to be the same than the above field."
+msgstr ""
+
+#: bin/openerp.ui.h:706
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Confirm Password:"
+msgstr ""
+
+#: bin/openerp.ui.h:726
+msgid ""
+"Check this box if you want demonstration data to be installed on your new "
+"database. These data will help you to understand OpenERP, with predefined "
+"products, partners, etc."
+msgstr ""
+"این جعبه را در صورتی که می‌خواهید داده‌های نمایشی روی دادگان نو شما برپاسازی "
+"گردند، تیک بزنید. این داده‌ها بوسیله فرآورده‌ها یا همکاران تجاری از پیش "
+"تعریف شده به شما کمک می‌کنند تا اپن ای‌آر‌پی را بهتر بفهمید."
+
+#: bin/openerp.ui.h:708
+msgid ""
+"<sup><b><span foreground=\"dark green\">?</span></b></sup>Load Demonstration "
+"Data:"
+msgstr ""
+
+#: bin/openerp.ui.h:725
+msgid "Change password"
+msgstr "تغییر گذرواژه"
+
+#: bin/openerp.ui.h:682
+msgid "<b>Change your super admin password</b>"
+msgstr "<b>گذرواژه راهبر خود را تغییر دهید</b>"
+
+#: bin/openerp.ui.h:803
+msgid "Old password:"
+msgstr "گذرواژه قدیمی:"
+
+#: bin/openerp.ui.h:797
+msgid "New password:"
+msgstr "گذرواژه نو:"
+
+#: bin/openerp.ui.h:796
+msgid "New password confirmation:"
+msgstr "تایید گذرواژه نو:"
+
+#: bin/openerp.ui.h:820
+msgid "OpenERP Message"
+msgstr "پیغام اپن ای‌آر‌پی"
+
+#: bin/openerp.ui.h:735
+msgid "Concurrency exception"
+msgstr "همزمانی استثنا"
+
+#: bin/openerp.ui.h:669
+msgid ""
+"<b>\n"
+"Write concurrency warning:\n"
+"</b>\n"
+"This document has been modified while you were editing it.\n"
+"  Choose:\n"
+"   - \"Cancel\" to cancel saving.\n"
+"   - \"Compare\" to see the modified version.\n"
+"   - \"Write anyway\" to save your current version.\n"
+msgstr ""
+"<b>\n"
+"نوشتن هشدار همزمانی:\n"
+"</b>\n"
+"این سند در حالی که شما داشتید آن را ویرایش می‌کردید تغییر یافته است.\n"
+"یکی از نمونه‌ها زیر را برگزینید:\n"
+"- \"لغو\" برای لغو ذخیرکردن.\n"
+"- \"مقایسه\" برای دیدن نگارش تغییر یافته.\n"
+"- \"نوشتن به هر نحو\" برای ذخیره نگارش کنونی.\n"
+
+#: bin/openerp.ui.h:734
+msgid "Compare"
+msgstr "مقایسه"
+
+#: bin/openerp.ui.h:881
+msgid "Write anyway"
+msgstr "نوشتن در هر حالتی"
+
+#: bin/openerp.glade:7910 bin/openerp.glade:7920
+msgid "window1"
+msgstr "window1"
+
+#: bin/openerp.ui.h:871
+msgid "Today"
+msgstr "امروز"
+
+#: bin/openerp.ui.h:854
+msgid "September 2008"
+msgstr "سپتامبر ۲۰۰۸"
+
+#: bin/openerp.ui.h:744
+msgid "Day"
+msgstr "روز"
+
+#: bin/openerp.ui.h:790
+msgid "Month"
+msgstr "ماه"
+
+#: bin/openerp.glade:8276
+msgid "Fields on which Search criteria to be applied"
+msgstr ""
+
+#: bin/openerp.glade:8289
+msgid "Conditional Operators"
+msgstr ""
+
+#: bin/openerp.glade:8316
+msgid "The Choice will be applied with next filter if any"
+msgstr ""
+
+#: bin/openerp.glade:8317
+msgid ""
+"AND\n"
+"OR"
+msgstr ""
+
+#: bin/openerp.glade:8330
+msgid "Remove Filter"
+msgstr ""
+
+#: bin/openerp.ui.h:765
+msgid "Filter Entry"
+msgstr ""
+
+#: bin/openerp.ui.h:755
+msgid "Enter Filter Name:"
+msgstr ""
+
+#: bin/win_error.ui.h:14
+msgid "label"
+msgstr "برچسب"
+
+#: bin/win_error.ui.h:8
+msgid "Click here for details about the publisher warranty proposition"
+msgstr ""
+
+#: bin/win_error.ui.h:6
+msgid "<i>_Publisher Warranty</i>"
+msgstr ""
+
+#: bin/win_error.glade:151
+msgid ""
+"<b>Publisher Warranty Contract.</b>\n"
+"<i>\n"
+"Your request will be send to OpenERP and publisher warranty team will reply "
+"you shortly.\n"
+"</i>"
+msgstr ""
+
+#: bin/win_error.ui.h:10
+msgid "Explain what you did:"
+msgstr "توضیح دهید که چه کاری انجام داده‌اید:"
+
+#: bin/win_error.glade:200
+msgid "Others Comments:"
+msgstr "سایر نظرها:"
+
+#: bin/win_error.ui.h:13
+msgid "Send to Publisher Warranty Team"
+msgstr ""
+
+#: bin/win_error.glade:318
+msgid "Summary of the problem:"
+msgstr ""
+
+#: bin/win_error.ui.h:7
+msgid "<i>_Support Request</i>"
+msgstr "<i>_درخواست پشتیبانی</i>"
+
+#: bin/win_error.ui.h:9
+msgid "Details"
+msgstr "جزییات"
+
+#: bin/win_error.ui.h:5
+msgid "<i>_Details</i>"
+msgstr "<i>_جزییات</i>"
